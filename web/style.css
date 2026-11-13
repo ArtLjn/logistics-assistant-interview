@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 1.5rem;
+  font: 1rem/1.6 system-ui, sans-serif;
+}
+
+main {
+  max-width: 44rem;
+  margin: auto;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+textarea, button {
+  font: inherit;
+}
+
+button {
+  justify-self: start;
+}
+
+#answer {
+  white-space: pre-wrap;
+}

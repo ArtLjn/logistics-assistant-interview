@@ -1,0 +1,22 @@
+[
+  {
+    "order_id": "HD202611001",
+    "warehouse": "WH01",
+    "order_status": "已审核待出库"
+  },
+  {
+    "order_id": "HD202611002",
+    "warehouse": "WH01",
+    "order_status": "待审核"
+  },
+  {
+    "order_id": "HD202611003",
+    "warehouse": "WH02",
+    "order_status": "已出库"
+  },
+  {
+    "order_id": "HD202611004",
+    "warehouse": "WH02",
+    "order_status": "运输异常"
+  }
+]

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>物流检索与异常排查助手</title>
+    <link rel="stylesheet" href="/web/style.css">
+    <script src="/web/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>物流检索与异常排查助手</h1>
+      <form id="ask-form">
+        <label for="question">输入问题</label>
+        <textarea id="question" name="question" rows="3" required></textarea>
+        <button type="submit">提问</button>
+      </form>
+      <p id="status" role="status"></p>
+      <section aria-label="回答" id="answer"></section>
+      <section aria-label="引用" id="citations"></section>
+      <details><summary>工具调用记录</summary><ol id="trace"></ol></details>
+    </main>
+  </body>
+</html>
